@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "about": "Nosotros",
+    "portfolio": "Portafolio",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Tu idea, perfectamente enmarcada en línea.",
+    "subtitle": "Creando sitios web modernos con elegancia, precisión e intención.",
+    "cta": "Construyamos Juntos"
+  },
+  "about": {
+    "title": "Quiénes Somos",
+    "description": "En DHC Atelier, ayudamos a dar vida a las ideas con sitios web elegantes e intencionales que combinan belleza visual y rendimiento. Fundado por Diego Armando Hidalgo Chinchilla, este estudio representa la artesanía atemporal en forma digital.",
+    "visit": "Visita nuestras raíces"
+  },
+  "portfolio": {
+    "title": "Trabajos Seleccionados",
+    "projects": {
+      "fashion": {
+        "title": "Marca de Moda de Lujo",
+        "description": "Plataforma de comercio electrónico con diseño minimalista"
+      },
+      "architecture": {
+        "title": "Estudio de Arquitectura",
+        "description": "Sitio web de portafolio con interacciones 3D"
+      },
+      "magazine": {
+        "title": "Revista Digital",
+        "description": "Diseño editorial centrado en el contenido"
+      }
+    },
+    "viewProject": "Ver Proyecto"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "packages": {
+      "starter": {
+        "title": "Inicial",
+        "description": "Portafolio básico o landing page con características esenciales y diseño responsive.",
+        "price": "Desde $2,500"
+      },
+      "pro": {
+        "title": "Profesional",
+        "description": "Sitio responsive multipágina con características avanzadas e integración de contacto.",
+        "price": "Desde $5,000"
+      },
+      "custom": {
+        "title": "Personalizado",
+        "description": "Experiencia web de alta gama con diseño y funcionalidad a medida.",
+        "price": "Cotización Personalizada"
+      }
+    }
+  },
+  "contact": {
+    "title": "Construyamos Algo Atemporal",
+    "subtitle": "Comparte tu visión con nosotros y te ayudaremos a darle vida con elegancia y precisión.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "message": "Mensaje",
+      "namePlaceholder": "Tu nombre",
+      "emailPlaceholder": "tu@correo.com",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
+      "submit": "Enviar Mensaje"
+    },
+    "info": {
+      "email": "Correo",
+      "location": "Ubicación",
+      "social": "Social",
+      "locationText": "San José, Costa Rica"
+    }
+  },
+  "footer": {
+    "copyright": "© dhc atelier 2025"
+  }
+}

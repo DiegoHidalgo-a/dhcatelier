@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "about": "About",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your idea, perfectly framed online.",
+    "subtitle": "Crafting modern websites with elegance, precision, and intention.",
+    "cta": "Let's Build Together"
+  },
+  "about": {
+    "title": "Who We Are",
+    "description": "At DHC Atelier, we help ideas come to life with elegant, intentional websites that blend visual beauty and performance. Founded by Diego Armando Hidalgo Chinchilla, this studio stands for timeless craftsmanship in digital form.",
+    "visit": "Visit our roots"
+  },
+  "portfolio": {
+    "title": "Selected Work",
+    "projects": {
+      "fashion": {
+        "title": "Luxury Fashion Brand",
+        "description": "E-commerce platform with minimalist design"
+      },
+      "architecture": {
+        "title": "Architecture Studio",
+        "description": "Portfolio website with 3D interactions"
+      },
+      "magazine": {
+        "title": "Digital Magazine",
+        "description": "Content-focused editorial design"
+      }
+    },
+    "viewProject": "View Project"
+  },
+  "services": {
+    "title": "Our Offerings",
+    "packages": {
+      "starter": {
+        "title": "Starter",
+        "description": "Basic portfolio or landing page with essential features and responsive design.",
+        "price": "Starting at $2,500"
+      },
+      "pro": {
+        "title": "Pro",
+        "description": "Multi-page responsive site with advanced features and contact integration.",
+        "price": "Starting at $5,000"
+      },
+      "custom": {
+        "title": "Custom",
+        "description": "High-end crafted web experience with bespoke design and functionality.",
+        "price": "Custom Quote"
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's Build Something Timeless",
+    "subtitle": "Share your vision with us, and we'll help bring it to life with elegance and precision.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send Message"
+    },
+    "info": {
+      "email": "Email",
+      "location": "Location",
+      "social": "Social",
+      "locationText": "San José, Costa Rica"
+    }
+  },
+  "footer": {
+    "copyright": "© dhc atelier 2025"
+  }
+}
