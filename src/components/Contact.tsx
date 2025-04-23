@@ -1,5 +1,5 @@
 import React from 'react';
-import { Send, Mail, MapPin, Linkedin, Instagram, MessageCircle } from 'lucide-react';
+import { Mail, MapPin, Linkedin, Instagram, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -9,10 +9,10 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto relative">
         <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl md:text-5xl font-serif mb-4">
-            Let's Build Something Timeless
+            Let’s Connect & Start Your Project
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Share your vision with us, and we'll help bring it to life with elegance and precision.
+            Ready to bring your vision to life? Contact us through any of the channels below — we usually reply within an hour.
           </p>
         </div>
 
@@ -23,8 +23,8 @@ const Contact = () => {
                 <Mail className="w-5 h-5" />
                 <h3 className="font-serif text-xl">Email</h3>
               </div>
-              <a href="mailto:hello@dhcatelier.com" className="text-gray-600 hover:text-black transition-colors">
-              DHC_atelier@outlook.com
+              <a href="mailto:DHC_atelier@outlook.com" className="text-gray-600 hover:text-black transition-colors">
+                DHC_atelier@outlook.com
               </a>
             </div>
             <div className="border-l-2 border-black pl-6">
@@ -76,63 +76,20 @@ const Contact = () => {
             </div>
           </div>
 
-          <form
-            action="https://formsubmit.io/send/DHC_atelier@outlook.com"
-            method="POST"
-            className="space-y-6 bg-white p-8 border border-gray-200"
-            data-aos="fade-left"
-            data-aos-delay="300"
-          >
-            {/* Anti-spam hidden field */}
-            <input type="text" name="_formsubmit_id" style={{ display: 'none' }} />
-
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full border-b-2 border-gray-200 py-3 focus:border-black transition-colors bg-transparent outline-none"
-                placeholder="Your name"
-                required
-              />
-            </div>
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="w-full border-b-2 border-gray-200 py-3 focus:border-black transition-colors bg-transparent outline-none"
-                placeholder="your@email.com"
-                required
-              />
-            </div>
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                rows={4}
-                className="w-full border-b-2 border-gray-200 py-3 focus:border-black transition-colors bg-transparent outline-none resize-none"
-                placeholder="Tell us about your project..."
-                required
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="w-full bg-black text-white px-8 py-4 flex items-center justify-center space-x-2 hover:bg-gray-900 transition-colors group"
+          <div className="space-y-6 bg-gray-50 p-8 border border-gray-200" data-aos="fade-left" data-aos-delay="300">
+            <h3 className="text-xl font-serif mb-4">Want to get started?</h3>
+            <p className="text-gray-700 text-base">
+              Reach out via WhatsApp or email. We'll respond quickly and guide you through the next steps. No forms, no waiting — just a real conversation.
+            </p>
+            <a 
+              href="https://wa.me/50685489448" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block mt-4 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition-colors"
             >
-              <span>Send Message</span>
-              <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </button>
-          </form>
+              Message Us Now
+            </a>
+          </div>
         </div>
       </div>
     </section>
