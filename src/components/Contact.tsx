@@ -97,4 +97,4 @@ const Contact = () => {
 };
 
 export default Contact;
-// This code defines a React functional component named `Contact` that renders a contact section for a website.
+// This code defines a React functional component named `Contact` that renders a contact section for a website
