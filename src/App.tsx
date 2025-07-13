@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import SplineBackground from './components/SplineBackground';
 
 function App() {
   useEffect(() => {
@@ -19,14 +20,17 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
-      <Hero />
-      <Portfolio />
-      <Services />
-      <About />
-      <Contact />
-      <Footer />
+    <div className="min-h-screen bg-white relative">
+      <SplineBackground />
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+        <Portfolio />
+        <Services />
+        <About />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
